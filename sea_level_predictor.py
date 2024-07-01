@@ -14,7 +14,7 @@ plt.show()
     # Create first line of best fit
 slope, intercept = np.polyfit(Year, CSIRO Adjusted Sea Level, 1)
 plt.scatter(Year, CSIRO Adjusted Sea Level)
-plt.plot(x, slope * x + intercept)
+plt.plot(Year, slope * Year + intercept)
     # Create second line of best fit
 
 
