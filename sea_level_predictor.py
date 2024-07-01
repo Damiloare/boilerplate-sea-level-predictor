@@ -9,9 +9,12 @@ df=pd.read_csv('epa-sea-level.csv')
     # Create scatter plot
 plt.xlabel('Year')
 plt.ylabel('CSIRO Adjusted Sea Level')
+plt.scatter(Year, CSIRO Adjusted Sea Level)
+plt.show()
     # Create first line of best fit
-
-
+slope, intercept = np.polyfit(Year, CSIRO Adjusted Sea Level, 1)
+plt.scatter(Year, CSIRO Adjusted Sea Level)
+plt.plot(x, slope * x + intercept)
     # Create second line of best fit
 
 
